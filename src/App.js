@@ -3,7 +3,7 @@ import './App.css';
 import states from './Components/State/states.json';
 import State from './Components/State/State.js';
 import Header from './Components/Header/Header.js'
-import { throwStatement } from '@babel/types';
+import SubmitForm from './Components/SubmitForm/SubmitForm.js'
 
 class App extends Component {
   constructor(props) {
@@ -15,37 +15,39 @@ class App extends Component {
       states[i] = states[rand];
       states[rand] = tmp;
    }
-  //  currentState = states[0]
 
     this.state = {
       states,
       statesCorrect: [],
+      inputText: "",
       currentIndex: 0,
       currentState: states[0],
       gameFinished: false,
     };
   }
 
-  checkInput = (event) => {
+  componentDidMount(){
+    this.inputElement.focus();
+  }
+
+  handleInput = (event) => {
     let inputValue = event.target.value.toLowerCase();
+    this.setState({inputText: inputValue});
+  }
+
+  checkMatch = () => {
+    const inputValue = this.state.inputText;
     const correctValue = this.state.currentState.name;
 
     if (inputValue === correctValue) {
-      console.log("state correct!")
-      this.handleCorrectResponse(correctValue);
+      const statesCorrect = [...this.state.statesCorrect];
+      statesCorrect.push(correctValue);
+      this.setState({statesCorrect: statesCorrect});
     }
-    
-  }
 
-  handleCorrectResponse = (state) => {
-    const statesCorrect = [...this.state.statesCorrect];
-    statesCorrect.push(state);
-    
     let currentIndex = this.state.currentIndex;
 
-    this.setState({statesCorrect: statesCorrect});
-    this.showNextState(currentIndex);
-
+    this.showNextState(currentIndex);  
   }
 
   showNextState = (index) => {
@@ -54,9 +56,15 @@ class App extends Component {
     console.log(newIndex, newState);
 
     setTimeout(function() {   
-      this.setState({currentIndex: newIndex, currentState: newState}) 
+      this.setState({currentIndex: newIndex, currentState: newState, inputText: ""}) 
+      this.focusInput();
     }
     .bind(this), 300);
+  }
+
+  //This is a bandaid
+  focusInput = () => {
+    this.inputElement.focus();
   }
 
   render() {
@@ -71,9 +79,10 @@ class App extends Component {
           key={this.state.currentState.id}
           name={this.state.currentState.name}
           image={this.state.currentState.image}
-          changed = {(event) => this.checkInput(event)}
         />
+        <SubmitForm changed={(event) => this.handleInput(event)} inputValue={this.state.inputText} clicked={this.checkMatch} reference={(inputEl) => { this.inputElement = inputEl}}/>
       </div>
+
     )
   }
 }
