@@ -1,0 +1,30 @@
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0 12px 0;
+}
+
+.message-image {
+    height: 20px;
+    width: auto;
+    padding: 0 3px;
+}
+
+.state-message {
+    font-size: 1.2em;
+    padding: 0 3px;
+    margin: 0;
+}
+
+.state-correct {
+    color: green;
+}
+
+.state-incorrect {
+    color: red;
+}
+
+.state-message-none {
+    display: none;
+}

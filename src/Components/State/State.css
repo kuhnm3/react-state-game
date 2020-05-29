@@ -1,0 +1,28 @@
+.state-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hint-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hint-icon {
+    height: 20px;
+    width: auto;
+    margin-left: 5px;
+}
+
+.hint-prop {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+}
+
+.hint-message {
+    margin: 6px 0 0;
+    font-size: 0.8em;
+}

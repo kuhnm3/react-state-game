@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "alaska",
+        "hint" : "It is super cold here",
+        "image": "https://freeclipartnow.com/d/21818-1/alaska.jpg"
+      },
+      {
+        "id": 2,
+        "name": "arizona",
+        "hint" : "This state hates Californians",
+        "image": "https://freeclipartnow.com/d/21820-1/arizona.jpg"
+      },
+      {
+        "id": 3,
+        "name": "colorado",
+        "hint" : "Skiing pls",
+        "image": "https://freeclipartnow.com/d/21826-1/colorado.jpg"
+      },
+      {
+        "id": 4,
+        "name": "idaho",
+        "hint" : "Gimme dem potatoes",
+        "image": "https://freeclipartnow.com/d/21838-1/idaho.jpg"
+      },
+      {
+        "id": 5,
+        "name": "massachusetts",
+        "hint" : "Go Celtics!",
+        "image": "https://freeclipartnow.com/d/21856-1/massachusetts.jpg"
+      },
+      {
+        "id": 6,
+        "name": "montana",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21866-1/montana.jpg"
+      },
+      {
+        "id": 7,
+        "name": "nevada",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21870-1/nevada.jpg"
+      },
+      {
+        "id": 8,
+        "name": "new york",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21879-6/new-york.jpg"
+      }
+]
