@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "./State.css"
 
 const State = (props) => {   
     return (
         <div className="state-container">
-            <img className="state-image" src={props.image} />
+            <img className="state-image" src={props.image} alt="state-image"/>
             <div className="whole-hint-container">
-                <div class="hint-container" onClick={props.showHint}>
+                <div className="hint-container" onClick={props.showHint}>
                     <p className="hint-prop">Need a hint</p>
-                    <img class="hint-icon" src="https://image.flaticon.com/icons/svg/1828/1828934.svg" />
+                    <img className="hint-icon" src="https://image.flaticon.com/icons/svg/1828/1828934.svg" alt="hint-icon" />
                 </div>
                 <p className="hint-message">{props.hintMessage}</p>
             </div>

@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px 0 0;
 }
 
 .hint-icon {
@@ -18,8 +19,8 @@
 }
 
 .hint-prop {
-    margin: 10px 0 5px 0;
     font-size: 1.2em;
+    margin: 0;
 }
 
 .hint-message {

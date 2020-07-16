@@ -8,7 +8,7 @@
       {
         "id": 2,
         "name": "arizona",
-        "hint" : "This state hates Californians",
+        "hint" : "Racist desert",
         "image": "https://freeclipartnow.com/d/21820-1/arizona.jpg"
       },
       {
@@ -46,5 +46,233 @@
         "name": "new york",
         "hint" : "Some hint",
         "image": "https://freeclipartnow.com/d/21879-6/new-york.jpg"
+      },
+      {
+        "id": 9,
+        "name": "arkansas",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21823-6/arkansas.jpg"
+      },
+      {
+        "id": 10,
+        "name" : "california",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21825-6/california.jpg"
+      },
+      {
+        "id": 11,
+        "name": "connecticut",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21829-6/connecticut.jpg"
+      },
+      {
+        "id": 12,
+        "name": "deleware",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21831-6/delaware.jpg"
+      },
+      {
+        "id": 13,
+        "name": "florida",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21833-6/florida.jpg"
+      },
+      {
+        "id": 14,
+        "name" : "georgia",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21835-6/georgia.jpg"
+      },
+      {
+        "id": 15,
+        "name": "hawaii",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21837-6/hawaii.jpg"
+      },
+      {
+        "id": 16,
+        "name": "illinois",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21841-6/illinois.jpg"
+      },
+      {
+        "id": 17,
+        "name": "indiana",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21843-6/indiana.jpg"
+      },
+      {
+        "id": 18,
+        "name" : "iowa",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21845-6/iowa.jpg"
+      },
+      {
+        "id": 19,
+        "name": "kansas",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21847-6/kansas.jpg"
+      },
+      {
+        "id": 20,
+        "name": "kentucky",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21849-6/kentucky.jpg"
+      },
+      {
+        "id": 21,
+        "name": "louisiana",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21851-6/louisiana.jpg"
+      },
+      {
+        "id": 22,
+        "name" : "maine",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21853-6/maine.jpg"
+      },
+      {
+        "id": 23,
+        "name": "maryland",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21855-6/maryland.jpg"
+      },
+      {
+        "id": 24,
+        "name": "michigan",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21859-6/michigan.jpg"
+      },
+      {
+        "id": 25,
+        "name": "minnesota",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21861-6/minnesota.jpg"
+      },
+      {
+        "id": 26,
+        "name": "mississippi",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21863-6/mississippi.jpg"
+      },
+      {
+        "id": 27,
+        "name" : "nevada",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21869-6/nebraska.jpg"
+      },
+      {
+        "id": 28,
+        "name": "new hampshire",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21873-6/new-hampshire.jpg"
+      },
+      {
+        "id": 29,
+        "name": "new jersey",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21875-6/new-jersey.jpg"
+      },
+      {
+        "id": 30,
+        "name": "new mexico",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21877-6/new-mexico.jpg"
+      },
+      {
+        "id": 31,
+        "name" : "north carolina",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21881-6/north-carolina.jpg"
+      },
+      {
+        "id": 32,
+        "name": "north dakota",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21883-6/north-dakota.jpg"
+      },
+      {
+        "id": 33,
+        "name": "ohio",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21885-6/ohio.jpg"
+      },
+      {
+        "id": 34,
+        "name": "oklahoma",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21887-6/oklahoma.jpg"
+      },
+      {
+        "id": 35,
+        "name": "oregon",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21889-6/oregon.jpg"
+      },
+      {
+        "id": 36,
+        "name": "pennsylvania",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21891-6/pennsylvania.jpg"
+      },
+      {
+        "id": 37,
+        "name" : "south carolina",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21895-6/south-carolina.jpg"
+      },
+      {
+        "id": 38,
+        "name": "south dakota",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21897-6/south-dakota.jpg"
+      },
+      {
+        "id": 39,
+        "name": "tennessee",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21899-6/tennessee.jpg"
+      },
+      {
+        "id": 40,
+        "name": "texas",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21901-6/texas.jpg"
+      },
+      {
+        "id": 41,
+        "name": "utah",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21903-6/utah.jpg"
+      },
+      {
+        "id": 42,
+        "name": "vermont",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21905-6/vermont.jpg"
+      },
+      {
+        "id": 43,
+        "name": "virginia",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21907-6/virginia.jpg"
+      },
+      {
+        "id": 44,
+        "name": "washington",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21909-6/washington.jpg"
+      },
+      {
+        "id": 45,
+        "name" : "wisconsin",
+        "hint" : "Are we in Canada yet?",
+        "image": "https://freeclipartnow.com/d/21913-6/wisconsin.jpg"
+      },
+      {
+        "id": 46,
+        "name": "wyoming",
+        "hint" : "Some hint",
+        "image": "https://freeclipartnow.com/d/21915-6/wyoming.jpg"
       }
 ]
