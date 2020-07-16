@@ -33,6 +33,7 @@ class App extends Component {
 
   componentDidMount(){
     this.inputElement.focus();
+    console.log(this.state.states)
   }
 
   handleInput = (event) => {
